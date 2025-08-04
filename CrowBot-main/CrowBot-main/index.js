@@ -135,10 +135,10 @@ client.on ("ready", async (message) => {
     let activNum = 0;
     setInterval(function() {
         if (activNum === 0) {
-            client.user.setActivity("Bot Protection Snk Fr 🌟")
+            client.user.setActivity("Bot Protection TempleV3 🌟")
             activNum = 1
         } else if (activNum === 1) {
-            client.user.setActivity("Bot Protection Snk Fr 🌟")
+            client.user.setActivity("Bot Protection Le TempleV3 🌟")
             activNum = 0
         }
     }, 3 * 1000)
